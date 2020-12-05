@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+:root {
+    --primary-color: rgb(174, 0, 255);
+}
 
 body {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bangers', cursive;
     margin: 0px;
-    background-image: url("https://raw.githubusercontent.com/vikasvk11/wakandan-translator-app/main/images/Groot1.jpg");
+    background-image: url("https://raw.githubusercontent.com/vikasvk11/wakandan-translator-app/main/images/Groot2.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 20%;
     background-attachment: fixed;
     background-size: cover;
     background-color: #000000;
@@ -65,7 +70,7 @@ textarea {
 }
 
 .navigation {
-    background-color: rgb(63, 63, 63);
+    background-color: var(--primary-color);
     text-align: right;
     color: rgb(180, 180, 180);
     padding: 2rem;
@@ -83,7 +88,7 @@ textarea {
 .links {
     text-decoration: none;
     padding: 1rem 1rem;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(51, 0, 34);
     border-radius: 1.5rem;
     color: white;
     font-size: larger;
@@ -111,8 +116,8 @@ textarea {
 
 .header {
     letter-spacing: 0.5rem;
-    font-size: 2.5rem;
-    color: white;
+    font-size: 5rem;
+    color: rgb(252, 241, 255);
     padding: 5rem 0rem;
 }
 
@@ -121,7 +126,7 @@ textarea {
 }
 
 .footer {
-    background-color: rgb(63, 63, 63);
+    background-color: var(--primary-color);
     text-align: center;
     color: white;
     padding: 2rem 0rem;
