@@ -3,16 +3,54 @@
 body {
     font-family: 'Bebas Neue', cursive;
     margin: 0px;
-    background-image: url("https://raw.githubusercontent.com/vikasvk11/wakandan-translator-app/main/images/BP.png");
+    background-image: url("https://raw.githubusercontent.com/vikasvk11/wakandan-translator-app/main/images/BP1.png");
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: 50% 50%;
     background-attachment: fixed;
     background-size: cover;
     background-color: #000000;
 }
 
-hr {
-    margin: 2rem 0rem;
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+#txt-output{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    max-height: 40vh;
+    overflow:scroll;
+    font-size: large;
+    background-color: rgb(245, 245, 245);
+}
+
+#btn-translate {
+    display: block;
+    font-family: inherit;
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 2rem;
+    font-size: larger;
+    border-radius: 0.5rem;
+    letter-spacing: 0.1rem;
 }
 
 .list-non-bullet {
@@ -32,6 +70,7 @@ hr {
     color: rgb(180, 180, 180);
     padding: 2rem;
     border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
     border-color: white;
 }
 
@@ -44,7 +83,7 @@ hr {
 .links {
     text-decoration: none;
     padding: 1rem 1rem;
-    background-color: black;
+    background-color: rgb(49, 49, 49);
     border-radius: 1.5rem;
     color: white;
     font-size: larger;
@@ -54,12 +93,17 @@ hr {
 }
 
 .link {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .link-active {
     text-decoration: underline;
 }
 
 .link-center {
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 3rem;
     
 }
 
@@ -69,6 +113,7 @@ hr {
     letter-spacing: 0.5rem;
     font-size: 2.5rem;
     color: white;
+    padding: 5rem 0rem;
 }
 
 .container-center {
@@ -81,6 +126,7 @@ hr {
     color: white;
     padding: 2rem 0rem;
     border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
     position: fixed;
     left: 0;
     bottom: 0;
