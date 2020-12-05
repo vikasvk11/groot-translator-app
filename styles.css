@@ -3,13 +3,12 @@
 body {
     font-family: 'Bebas Neue', cursive;
     margin: 0px;
-    background-image: url("https://github.com/vikasvk11/wakandan-translator-app/blob/main/images%2FBP.png");
+    background-image: url("https://raw.githubusercontent.com/vikasvk11/wakandan-translator-app/main/images/BP.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 100%;
     background-attachment: fixed;
     background-size: cover;
-    height: 100%;
-    background-color: #cccccc;
+    background-color: #000000;
 }
 
 hr {
@@ -28,15 +27,16 @@ hr {
 }
 
 .navigation {
-    background-color: black;
+    background-color: rgb(63, 63, 63);
     text-align: right;
-    color: white;
+    color: rgb(180, 180, 180);
     padding: 2rem;
     border-bottom-left-radius: 1.5rem;
+    border-color: white;
 }
 
 .navigation .link-active {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /** Links **/
@@ -49,6 +49,8 @@ hr {
     color: white;
     font-size: larger;
     letter-spacing: 0.1rem;
+    border-color: white;
+    border-style: solid;
 }
 
 .link {
@@ -57,7 +59,8 @@ hr {
 
 .link-center {
     text-align: center;
-    padding: 2rem;
+    padding-top: 10rem;
+    
 }
 
 /** Header **/
@@ -65,6 +68,7 @@ hr {
 .header {
     letter-spacing: 0.5rem;
     font-size: 2.5rem;
+    color: white;
 }
 
 .container-center {
@@ -72,7 +76,7 @@ hr {
 }
 
 .footer {
-    background-color: black;
+    background-color: rgb(63, 63, 63);
     text-align: center;
     color: white;
     padding: 2rem 0rem;
