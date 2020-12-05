@@ -32,6 +32,7 @@ textarea {
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
+    padding: 1rem;
 }
 
 #txt-output{
@@ -43,6 +44,7 @@ textarea {
     overflow:scroll;
     font-size: large;
     background-color: rgb(245, 245, 245);
+    padding: 1rem;
 }
 
 #btn-translate {
